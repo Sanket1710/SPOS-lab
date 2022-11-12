@@ -52,7 +52,7 @@ public class sjf {
 				tat[c]=ctime[c]-atime[c];
 				avgtat+=tat[c];
 				wt[c]=tat[c]-btime[c];
-				avgwt+=tat[c];
+				avgwt+=wt[c];
 				f[c]=1;
 				tot++;
 			}
